@@ -8,6 +8,7 @@ from django.conf.urls.static import static
 urlpatterns = [
 
     path('hello/', views.hello_world, name='hello_world'),
-    path('crop-image/', views.upload_and_crop, name='upload_and_crop'),
+    # path('crop-image/', views.upload_and_crop, name='upload_and_crop'),
+    path('upload/',views.upload,name="Upload Image"),
 
 ]
